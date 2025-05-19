@@ -22,6 +22,7 @@ body{
     box-sizing: border-box;
     border-color: brown;
     border-style: solid;
+    padding: 20px;
 }
 
 .heading{
@@ -41,6 +42,7 @@ body{
     text-align: right;
     font-size: 20px;
     padding-right: 22px;
+    color: red;
 
 }
 button{
