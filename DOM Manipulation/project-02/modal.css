@@ -33,7 +33,7 @@ body{
     padding: 5px;
 
     animation-name: animodal;
-    animation-duration: .4s;
+    animation-duration: 2s;
 }
 
 #close-btn{
@@ -42,7 +42,7 @@ body{
     
 }
 #model-container{
-  /* display: none;*/
+   display: none;
    position: fixed;
    top: 0;
    left:0;
@@ -51,4 +51,19 @@ body{
    z-index: 1;
    border:2rem;
    border-radius: 2rem;
+}
+
+/*   Animation of modal box */
+
+@keyframes animodal {
+    from {
+        top:-300px;
+        opacity: 0;
+        
+
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
 }
