@@ -1,0 +1,47 @@
+body{
+    /*background-image: url("img/for.jpg");*/
+    background-color: brown;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    
+}
+.container{
+    background-color: transparent;
+    border: 2px solid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position:absolute;
+   
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 40px;
+}
+#add-task-box{
+  display:flex ;
+
+    
+    
+}
+#task{
+    width: 300px;
+    height: 40px;
+}
+#add-task-btn{
+    width: 50px;
+    background-color: rgb(152, 152, 8);
+  
+}
+#add-task-btn:hover{
+    background-color: red;
+}
+input {
+      
+    padding: 10px;
+    margin-right: 10px;
+    
+}
