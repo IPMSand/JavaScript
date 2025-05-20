@@ -1,0 +1,41 @@
+body{
+    background-image: url(img/swim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    background-color: cornflowerblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position:absolute;
+    width: 60%;
+    height: 15%;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    font-size: 40px;
+}
+#startbtn, #resetbtn{
+    width: 40px;
+    height: 40px;
+}
+#startbtn{
+    background-color: rgb(86, 244, 86);
+}
+#resetbtn{
+    background-color: rgb(233, 41, 41);
+}
+#pause{
+    background-color: orangered;
+     width: 40px;
+     height: 40px;
+     display: block;
+}
+#startbtn ::after{
+    content: hidden;
+}
